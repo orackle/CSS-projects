@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="5.css">
+	<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+
+
+
+</head>
+
+
+<body>
+
+
+
+
+
+
+<script>
+function openNav() {
+    document.getElementById("sidebar").style.width = "100%";
+   document.getElementById("sidebar").style.visibility="visible";
+    document.getElementById("open").style.visibility="hidden";
+    document.getElementById("bgc").style.opacity="0.7";
+    document.getElementById("close").style.visibility="visible";
+    // document.getElementById("desc").style.visibility="visible";
+    document.getElementById("form").style.visibility="visible";
+    // document.getElementById("close").style.visibility="visible";
+    // document.getElementById("get").style.visibility="visible";
+
+}
+
+
+
+function closeNav() {
+	document.getElementById("sidebar").style.width="0%";
+	document.getElementById("bgc").style.opacity="0";
+	// document.getElementById("input").style.visibility="visible";
+	document.getElementById("form").style.visibility="hidden";
+	 document.getElementById("sidebar").style.visibility="hidden";
+	 document.getElementById("open").style.visibility="visible";
+	 document.getElementById("close").style.visibility="hidden";
+
+}
+
+
+
+</script>
+
+
+<div id="bgc"></div>
+<div id="bg">
+	<img src="original.jpg" <!-- height="660px" width="100% -->">
+	<div class="links">
+		<li style="color:#fc5223;"> HOME</li>
+		<li> Gallery</li>
+		<li>Prices</li>
+		<li>location</li>
+		<li>FAQ</li>
+		<li>blog</li>
+
+	</div>
+
+
+
+
+<div class="sidebar" id="sidebar">
+  <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a> -->
+
+  <div class="close" id="close" onclick="closeNav()">
+
+  	<div class="t">
+  	Close
+  
+  	<span style="font-size: 35px;">&#187; </span>
+  	</div>
+
+  	</div>
+
+
+
+  	<div id="form">
+  		<input type="text" name="Name" placeholder="NAME" id="desc">
+  		<input type="text" name="loc" placeholder="LOCATION" id="desc">
+  		<input type="text" name="dop" placeholder="DATE TO PICK" id="desc">
+  		<input type="text" name="del" placeholder="DATE TO DELIVER" id="desc">
+
+
+
+  		<div class="gtst r" id="get">
+  		
+  			GET STARTED 
+  		</div>
+  	</div>
+
+  	
+
+  	
+
+
+
+
+  </div>
+
+
+<div class="open" id="open" onclick="openNav ()">
+	<div class="b" >
+	OPEN
+	<br>
+	<span style="font-size: 35px;">&#171; </span>
+	</div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
