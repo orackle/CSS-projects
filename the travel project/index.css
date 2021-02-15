@@ -1,0 +1,605 @@
+
+@font-face {
+
+	font-family: Lato;
+	src: url(Lato-Regular.ttf);
+}
+
+
+
+
+
+*
+{ 
+	margin: 0 0 0 0;
+
+}
+
+.parallax
+{
+
+	background: url("1.jpg"); 
+	height: 100%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+#header
+
+{
+
+	height: 65px;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	position: relative;
+
+}
+
+
+#header nav
+{
+	height: 20px;
+	line-height: 3;
+	margin-left: 70%;
+	vertical-align: middle;
+	position: absolute;
+	list-style: none;
+	display: inline-block;
+
+}
+li 
+{
+	display: inline-block;
+	padding: 5px 25px;
+	font-size: 20px;
+	color: white;
+
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+/*second background header*/
+
+#sechead
+
+{
+	background-image: url(1.jpg);
+	min-height: 100%;
+	min-width: 100%;
+	background-color: #efefef;
+	background-size: cover;
+	position: absolute;
+	z-index: 90;
+	opacity: 0.8;
+
+	
+	
+
+}
+
+#major
+
+{
+	display: inline-block;
+	margin: 0 0 0 5em;
+	font-size: 15px;
+	line-height: 1;
+	font-family: Lato;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding: 25px 25px;
+
+}
+
+p
+{
+	font-family: Lato;
+	line-height: 0.8;
+
+}
+
+hr
+{
+	 border: 0;
+	 width: 50%;
+	 margin-left: 25%;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+#textcon1
+{
+	margin-left:210px;
+	 margin-top: 30px; 
+	 font-size:50px; 
+	 letter-spacing:5px; 
+	 position:relative; 
+	 opacity:0.5;
+	 transition: opacity 2s;
+	 -webkit-transition:opacity 2s;
+	 text-transform: uppercase;
+}
+
+
+#textcon2
+
+{
+	margin-top: 350px;
+	margin-left: 25%;
+	
+	 font-size:50px; 
+	 letter-spacing:5px; 
+	 position:absolute; 
+	 opacity:0.6;
+	 transition: opacity 2s;
+	 -webkit-transition:opacity 2s;
+	 text-transform: uppercase;
+
+}
+
+#textcon3
+
+{
+	margin-top: 950px;
+	margin-left: 25%;
+	
+	 font-size:50px; 
+	 letter-spacing:5px; 
+	 position:absolute; 
+	 opacity:0.6;
+	 transition: opacity 2s;
+	 -webkit-transition:opacity 2s;
+	 text-transform: uppercase;
+
+}
+
+#cont1
+{
+
+width: 0.1px;
+height: inherit;
+background-color: black;
+margin-top: -210px;
+
+margin-left: 100%;
+/*vertical-align: middle;*/
+-webkit-transition: width 2s;
+transition: width 2s;
+position: absolute;
+
+}
+
+#cont2
+{
+
+width: 0.1px;
+height: inherit;
+background-color: black;
+color: white;
+
+
+right: 100%;
+
+margin-top: -210px;
+-webkit-transition: width 2s;
+transition: width 2s;
+position: absolute;
+
+
+}
+
+
+.con4 #cont2
+{
+	margin-top: -210px;
+
+}
+
+.con
+
+{
+	height: 200px;
+	width: 321px;
+	margin-left: 18%;
+	margin-top: 50px;
+	background-color: #efefef;
+	color: black;
+	position: absolute;
+	z-index: 1900;
+	-webkit-transition: width 2s, opacity 2s;
+	transition: width 2s, opacity 2s;
+	transition-timing-function: ease;
+}
+
+.con2
+{
+
+	margin-top: 587px;
+	margin-bottom: 500px;
+}
+
+.con:hover #cont1
+
+{
+
+width:500px;
+}
+
+.con:hover
+{
+	opacity: 0.8;
+}
+
+.con:hover #caption
+{
+	visibility: visible;
+}
+
+.con:hover #textcon1
+{
+	opacity: 0;
+}
+
+
+.con1
+
+{
+	margin-top: 25%;
+
+	margin-left: 58%;
+
+	
+}
+
+.con4
+
+{
+	margin-top: 900px;
+
+	margin-left: 58%;
+}
+
+
+
+.con1 #caption
+{
+	margin-left: 68%;
+	opacity: 1;
+}
+
+
+
+#textright
+{
+ margin: 10px; 
+ width: 480px; 
+ font-size: 12px; 
+ position: absolute; 
+ text-align: justify; 
+ word-wrap: break-word; 
+ color: white; 
+ opacity: 0;
+ -webkit-transition:opacity 4s;
+ transition: opacity 4s;
+ transition-timing-function: ease-out;
+}
+
+
+
+
+
+
+
+.con:hover #cont2
+{
+	
+	width:500px;
+
+}
+
+
+.con:hover #textright
+{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.con:hover #textcon2
+{
+	opacity: 0;
+}
+
+
+#caption
+{
+width: 100px;
+height: 25px;
+margin-top: -70px;
+background-color: black;
+color: gray;
+text-align: center;
+display: table-caption;
+align-self: center;
+visibility: hidden;
+position: absolute;
+letter
+}
+
+
+#last
+{
+height: 500px;
+width: 100%;
+background: #efefef;
+margin-top: 75%;
+padding-top: 50px;
+position: absolute;
+opacity: 1;
+color: #2f3c54;
+
+
+
+}
+
+.border
+ {
+    border-radius: 35px 35px;
+    border: 2px solid #f9b26b;
+    padding-top:15px;
+    padding-bottom: 20px;
+    width: 500px;
+    height: 25px;
+    position: absolute;
+    margin-left: 30%;
+}
+
+.border:hover
+
+{
+	border: 2px solid #f9b26b;
+	background-color: #efefef;
+	opacity: 0.5;
+	color: black;
+}
+
+.parallax2
+{
+	background: url("pic11.jpg"); 
+
+	height: 450px;
+	margin-top: 110%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.9;
+	font-size: 30px;
+	font-family: Lato;
+
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+
+	text-align: center;
+}
+
+.subhead
+{
+height: 300px;
+width: 100%;
+background: #343434;
+
+position: absolute;
+opacity: 1;
+padding-top:90px;
+
+
+
+
+}
+
+
+
+.subhead img
+{
+	height:45px;
+	width: 45px;
+	margin-left: 50%;
+
+}
+
+.share
+{
+margin-left: 700px;
+width: 500px;
+height: 76px;
+background-color: white;
+}
+
+.morepics
+
+{
+	margin-top: 3%;
+	
+	margin-left: 140px;
+
+	height: 150px;
+
+	
+
+}
+
+.morepics img
+
+{
+	height:150px;
+	
+	margin-left: 0px;
+	tra
+}
+
+.morepics img:hover
+{
+transform: scale(1.1);
+}
+/*quote
+
+/*.small
+
+{
+
+	
+
+	width: 20%;
+	height: 10px;
+	
+	opacity: 1;
+	color: white;
+	z-index: 2;
+	position: absolute;
+	float: left;
+}
+*/
+
+
+
+
+/*small decorations*/
+
+/*.small1
+
+{margin-top: 30%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	background: red;
+
+}
+
+.small2
+{
+	margin-top: 20%;
+	margin-left: 40%;
+	margin-bottom: 10%;
+	background: red;
+	opacity: 0.3;
+
+}
+
+*/
+
+
+
+/*dropdowns for the top menu class*/
+
+/*.dropbtn
+{
+	background-color: black;
+	padding: 30px 0 0 50px;
+	color: white;
+	text-align: center;
+	opacity: 0.5;
+	font-size: 16px;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: opacity 1s linear ;
+    transition: opacity 1s linear;
+}
+
+
+.dropdown
+{
+
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.dropdowncon
+{
+	visibility: hidden;
+	position: absolute;
+	background-color: red;
+	min-width: 250px;
+	min-height: 100px;
+	margin-left: 0;
+	box-shadow: 0 3px 12px 0 rgba(0,0,0,0.2);
+
+
+}
+
+.dropdowncon a
+{
+	color: white;
+    padding: 25px 45px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdowncon a:hover
+{
+	background-color: white;
+	color: black;
+
+}
+
+.dropdown:hover .dropdowncon
+{
+	visibility: visible;
+}
+
+.dropdown:hover .dropbtn
+{
+	background-color: black;
+	opacity: 0.7;
+}*/
+
+
+
+
+
+/*subheading div*/
+
+
+
+
+/*
+#map
+
+{
+height:404px;
+margin-top: 45px;
+margin-left: 45px;
+width: 610px;
+border-radius: 50%;
+background: #000000;
+position: relative; 
+background: url(3.jpg);
+
+
+
+
+}
+*/
+
+
+
+
+
+
+
+/*next div*/
+
+
